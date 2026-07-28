@@ -1,0 +1,63 @@
+cff-version: 1.2.0
+title: Internet Yellow Pages
+message: >-
+  If you use IYP, please cite the article from
+  preferred-citation, this repository, and the underlying
+  datasets you analyzed as specified in ACKNOWLEDGMENTS.md
+type: software
+authors:
+  - given-names: Romain
+    family-names: Fontugne
+    affiliation: IIJ Research Laboratory
+    orcid: 'https://orcid.org/0000-0002-9816-5625'
+  - given-names: Malte
+    family-names: Tashiro
+    affiliation: IIJ Research Laboratory
+    orcid: 'https://orcid.org/0000-0003-1257-9534'
+repository-code: >-
+  https://github.com/InternetHealthReport/internet-yellow-pages
+url: 'https://iyp.iijlab.net/'
+license: GPL-3.0
+version: v4.4.0
+date-released: '2026-07-21'
+preferred-citation:
+  type: conference-paper
+  title: >-
+    The Wisdom of the Measurement Crowd: Building the Internet
+    Yellow Pages a Knowledge Graph for the Internet
+  authors:
+    - given-names: Romain
+      family-names: Fontugne
+      affiliation: IIJ Research Laboratory
+      orcid: 'https://orcid.org/0000-0002-9816-5625'
+    - given-names: Malte
+      family-names: Tashiro
+      affiliation: IIJ Research Laboratory / SOKENDAI
+      orcid: 'https://orcid.org/0000-0003-1257-9534'
+    - given-names: Raffaele
+      family-names: Sommese
+      affiliation: University of Twente
+      orcid: 'https://orcid.org/0000-0003-3484-9259'
+    - given-names: Mattijs
+      family-names: Jonker
+      affiliation: University of Twente
+      orcid: 'https://orcid.org/0000-0001-5174-9140'
+    - given-names: Zachary S.
+      family-names: Bischof
+      affiliation: Georgia Institute of Technology
+      orcid: 'https://orcid.org/0000-0001-6419-6303'
+    - given-names: Emile
+      family-names: Aben
+      affiliation: RIPE NCC
+  conference:
+    name: Internet Measurement Conference (IMC)
+  identifiers:
+    - type: doi
+      value: 10.1145/3646547.3688444
+  month: 11
+  year: 2024
+  publisher:
+    name: Association for Computing Machinery
+  pages: 16
+  start: 183
+  end: 198
