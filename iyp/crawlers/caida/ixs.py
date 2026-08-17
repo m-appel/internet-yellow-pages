@@ -14,6 +14,7 @@ from iyp import BaseCrawler
 URL = 'https://publicdata.caida.org/datasets/ixps/'
 ORG = 'CAIDA'
 NAME = 'caida.ixs'
+URL_FMT = 'https://publicdata.caida.org/datasets/ixps/%Y/%m/ixs_%Y%m.jsonl'
 
 
 class Crawler(BaseCrawler):
@@ -22,8 +23,9 @@ class Crawler(BaseCrawler):
 
         date = arrow.now()
 
-        for _ in range(6):
-            full_url = url + f'ixs_{date.year}{date.month:02d}.jsonl'
+        for _ in range(2):
+            full_url = date.strftime(URL_FMT)
+            logging.info(f'Probing {full_url}')
             req = requests.head(full_url)
 
             # Found the latest file
